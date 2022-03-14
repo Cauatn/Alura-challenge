@@ -1,0 +1,32 @@
+.main-wrapper {
+    margin: 64px 152px;
+}
+
+.categoria-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categoria-ancora {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Raleway',sans-serif;
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.anconra-seta {
+    margin-left: 12px;
+    width: 16px;
+    height: 16px;
+}
+
+.categoria-titulo {
+    font-family: 'Raleway',sans-serif;
+    color: #464646;
+    font-size: 32px;
+    line-height: 38px;
+}

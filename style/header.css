@@ -1,0 +1,56 @@
+
+.cabecalho {
+    display: flex;
+
+    max-width: 1440px;
+
+    justify-content: space-between;
+
+    margin: 36px 152px;
+
+}
+
+.cabecalho-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 34px;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.nav-bar {
+    width: 394px;
+    height: 40px;
+
+    background-color: #F5F5F5;
+
+    border-radius: 20px;
+    border-style: none;
+
+    padding: 16px 12px;
+}
+
+.login_button {
+
+    width: 182px;
+    height: 51px;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid #2A7AE4;
+
+    color: #2A7AE4;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}

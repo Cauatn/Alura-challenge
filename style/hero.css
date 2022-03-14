@@ -1,0 +1,54 @@
+.hero {
+    background-image: url('../images/Banner-image.png');
+    height: 352px;
+    max-width: 1440px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.hero_content {
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 152px;
+
+    margin-bottom: 32px;
+
+    gap: 16px;
+
+}
+
+.hero-title {
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 52px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.hero-text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.hero-button {
+    width: 130px;
+    height: 51px;
+
+    border: none;
+
+    background-color: #2A7AE4;
+
+    color: #FFFFFF;
+
+    line-height: 16.78px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
