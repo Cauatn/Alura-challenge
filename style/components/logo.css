@@ -1,0 +1,11 @@
+.logo__anchor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-item {
+    display: flex;
+    align-self: center;
+    margin-left: 5px;
+}

@@ -1,0 +1,26 @@
+.nav__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+}
+
+.nav-input {
+    width: 393px;
+    height: 40px;
+
+    padding: 12px 16px;
+
+    background-color: #F5F5F5;
+
+    border: none;
+    border-radius: 20px;
+}
+
+.nav-input::placeholder {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 14px;
+
+    color: #A2A2A2;
+}
