@@ -4,6 +4,14 @@
     font-family: inherit;
     line-height: inherit;
 
+    font-weight: 400;
+
+    height: 61px;
+    width: 165px;
+
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+
 }
 
 .login-button {

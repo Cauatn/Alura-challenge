@@ -49,4 +49,23 @@
 
 .form_input-name {
     height: 56px;
+    width: 560px;
+}
+
+.form_input-messagem {
+    height: 82px;
+    width: 560px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 102px;
+}
+
+.copyright-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
