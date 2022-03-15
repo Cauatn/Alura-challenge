@@ -1,0 +1,52 @@
+.footer {
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #EAF2FD;
+
+    height: 368px;
+
+}
+
+.footer__content {
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row: 1;
+    height: 240px;
+
+    margin: 64px 152px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-item{
+
+    margin: 12px 0px;
+
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: 500;
+    font-family: inherit;
+    color: #464646;
+}
+
+.link-list > :first-child {
+    margin-top: 0px;
+}
+
+.link-list > :last-child {
+    margin-bottom: 0px;
+}
+
+.form {
+    grid-column: 3 / span 2;
+}
+
+.form_input-name {
+    height: 56px;
+}
