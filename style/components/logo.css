@@ -9,3 +9,18 @@
     align-self: center;
     margin-left: 5px;
 }
+
+@media screen and (max-width : 768px) {
+    
+    .logo__anchor > :first-child {
+        height: 24px;
+    }
+
+    .logo__anchor > :nth-child(2) {
+        height: 18px;
+    }
+
+    .logo__anchor > :last-child {
+        height: 18px;
+    }
+}

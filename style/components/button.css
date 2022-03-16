@@ -26,3 +26,13 @@
 
     color: #2A7AE4;
 }
+
+@media screen and (max-width : 768px) { 
+
+    .login-button {
+        width: 166px;
+        height: 40px;
+
+        font-weight: 600;
+    }
+}

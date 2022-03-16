@@ -24,3 +24,12 @@
 
     color: #A2A2A2;
 }
+
+@media screen and (max-width : 768px) { 
+    
+    .nav-input{
+        width: 240px;
+        height: auto;
+        padding: 12px 16px;
+    }
+}
