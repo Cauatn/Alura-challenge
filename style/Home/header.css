@@ -22,13 +22,4 @@
     .nav__menu {
         gap: 26px;
     }
-
-    main {
-        display: none;
-    }
-
-    footer {
-        display: none;
-    }
-    
 }

@@ -94,3 +94,17 @@
     font-size: 16px;
 }
 
+
+/*Media Query*/
+
+@media screen and (max-width : 768px) {
+
+    main {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
