@@ -1,0 +1,41 @@
+.form {
+    position: relative;
+    grid-column: 3 / span 2;
+    outline: none;
+    border: none;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form_input-name {
+    height: 56px;
+    width: 560px;
+
+    font-size: 16px;
+    color: #464646;
+
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.form_input-nameh {
+    position: absolute;
+    left: 12px;
+    top: 42px;
+
+    color: #A2A2A2;
+}
+
+.form_input-messagem {
+    height: 82px;
+    width: 560px;
+
+    padding-left: 12px;
+}
