@@ -1,3 +1,7 @@
+.lupa-pesquisa {
+    display: none;
+}
+
 .header {
 
     display: flex;
@@ -21,5 +25,35 @@
 
     .nav__menu {
         gap: 26px;
+    }
+}
+
+@media screen and (max-width : 360px) {
+
+    .lupa-pesquisa {
+        display:initial;
+        width: 17px;
+        height: 17px;
+    }
+
+    .nav-input {
+        display: none;
+    }
+
+    .header {
+        margin: 16px;
+    }
+
+    .login-button {
+        width: 133px;
+        height: 40px;
+    }
+
+    main {
+        display: none;
+    }
+
+    footer {
+        display: none;
     }
 }
