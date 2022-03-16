@@ -103,6 +103,14 @@
         margin: 32px;
     }
 
+    .ver-tudo {
+        margin-right: 18px;
+    }
+    
+    .arrow-icon {
+        top: 0px;
+    }
+
     .card__container img {
         width: 164px;
         height: 174px;
