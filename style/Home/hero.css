@@ -43,18 +43,28 @@
 }
 
 
-.hero-button {
-    width: 130px;
-    height: 51px;
+/*Media Query*/
 
-    border: none;
+@media screen and (max-width : 768px) {
 
-    background-color: #2A7AE4;
+    .hero {
+        background-size: cover;
+    }
 
-    color: #FFFFFF;
+    .hero_container {
+        margin: 0px 32px;
+    }
 
-    line-height: 16.78px;
+    .hero_content {
+        margin-bottom: 12px;
+    }
 
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    main {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+    
 }
