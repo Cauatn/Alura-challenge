@@ -45,3 +45,38 @@
 .link-list > :last-child {
     margin-bottom: 0px;
 }
+
+/*Media Query*/
+
+@media screen and (max-width : 768px) {
+
+    .footer__content {
+        margin: 32px;
+    }
+
+    .link {
+        grid-column: 1;
+        margin-top: 26.4px;
+    }
+
+    .footer__content {
+        display: grid;
+    }
+
+    .form {
+        grid-column: 2 / 2 span;
+    }
+
+    footer .logo {
+        margin-top: 10px;
+    }
+
+    .link-item {
+        margin: 24px 0px;
+        font-weight: 500;
+    }
+
+    .link-item a {
+        font-weight: 500;
+    }
+}
