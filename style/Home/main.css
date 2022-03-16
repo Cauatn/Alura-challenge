@@ -98,8 +98,26 @@
 /*Media Query*/
 
 @media screen and (max-width : 768px) {
+    
+    .categoria {
+        margin: 32px;
+    }
 
-    main {
+    .card__container img {
+        width: 164px;
+        height: 174px;
+    }
+
+    .categoria-titulo {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .main {
+        margin: 0px;
+    }
+
+    .card-5,.card-6 {
         display: none;
     }
 
