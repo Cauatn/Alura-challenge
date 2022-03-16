@@ -71,7 +71,7 @@
     display: flex;
     flex-direction: column;
 
-    width: 176px;
+    width: auto;
 
     gap: 8px;
 }
@@ -127,5 +127,25 @@
 
     .card-5,.card-6 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .categoria {
+        margin: 16px;
+    }
+
+    .card__container {
+        width: auto;
+    }
+
+    .categoria-content {
+        flex-wrap: wrap;
+    }
+
+    .card__container img {
+        width: 156px;
+        height: 174px;
     }
 }
