@@ -83,8 +83,28 @@
 
 @media screen and (max-width: 360px){
     .footer {
-        height: 552px;
+        height: 553px;
     }
 
-    
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 16px;
+        height: auto;
+    }
+
+    .button {
+        font-weight: 600;
+    }
+
+    .link-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link-item {
+        margin: 8px;
+    }
 }

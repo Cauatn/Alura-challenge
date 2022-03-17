@@ -60,3 +60,15 @@
     }
     
 }
+
+@media screen and (max-width: 360px) {
+
+    .formulario {
+        margin-left: 0px;
+    }
+
+    .form_input-name, .form_input-menssagem {
+        width: 328px;
+    }
+
+}
