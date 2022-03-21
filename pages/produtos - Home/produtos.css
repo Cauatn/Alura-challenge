@@ -1,0 +1,41 @@
+.main {
+    margin: 64px 152px;
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoria-titulo {
+    font-weight: 700;
+}
+
+.categoria button {
+    height: 51px;
+}
+
+.categoria-content {
+    flex-wrap: wrap;
+}
+
+.card__container {
+    position: relative;
+}
+.categoria a img {
+    width: 14px;
+    height: 18px;
+}
+
+.categoria a :last-child {
+    width: 18px;
+    height: 18px;
+}
+
+.adm-func {
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+}
