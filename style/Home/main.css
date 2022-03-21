@@ -142,10 +142,15 @@
 
     .categoria-content {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .card__container img {
         width: 156px;
         height: 174px;
+    }
+
+    .categoria-header {
+        margin-left: 16px;
     }
 }
