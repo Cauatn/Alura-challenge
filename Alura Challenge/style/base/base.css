@@ -1,0 +1,18 @@
+@import url(reset.css);
+@import url(../components/logo.css);
+@import url(../components/search.css);
+@import url(../components/button.css);
+@import url(../components/form.css);
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    line-height: 16px;
+    width: auto;
+    max-width: 1440px;
+}
+
+a {
+    text-decoration: none;
+}
