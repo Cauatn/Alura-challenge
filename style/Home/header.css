@@ -16,13 +16,7 @@
 
 /*Media Query*/
 
-@media screen and (max-width: 1160px) {
-    .header {
-        margin: 0px auto;
-    }
-}
-
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 1160px) {
 
     .header {
         margin: 16px 32px;
